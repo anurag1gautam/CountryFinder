@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/colorPrimary"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:id="@+id/country_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/country_detail_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+
+            <TextView
+                android:id="@+id/country_capital_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:text="@string/country_capital" />
+            <TextView
+                android:id="@+id/country_capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:gravity="top"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+
+            <TextView
+                android:id="@+id/country_calling_code_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:text="@string/country_calling_code" />
+            <TextView
+                android:id="@+id/country_calling_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/country_region_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:text="@string/country_region" />
+            <TextView
+                android:id="@+id/country_region"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            
+            
+
+            <TextView
+                android:id="@+id/country_subregion_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:text="@string/country_subregion" />
+
+            <TextView
+                android:id="@+id/country_subregion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            
+            <TextView
+                android:id="@+id/country_time_zone_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:text="@string/country_timezone" />
+            <TextView
+                android:id="@+id/country_time_zone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="16dp"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            
+
+            <TextView
+                android:id="@+id/country_currencies_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:text="@string/country_currencies" />
+            <TextView
+                android:id="@+id/country_currencies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            
+
+            <TextView
+                android:id="@+id/country_languages_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:text="@string/country_languages" />
+
+            <TextView
+                android:id="@+id/country_languages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="16dp"
+                android:gravity="center_vertical"
+                  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/country_detail_save"
+                android:drawableLeft="@android:drawable/ic_menu_save"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Save"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>
